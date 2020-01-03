@@ -22,3 +22,7 @@ Route::get('/ryan','LoginController@getfuck');
 
  
 Route::get('/ryanHomework01','RyanHomeWorkController@homework20191227')->middleware(['ryanHomework']);//中介層的用法回家作業
+
+Route::get('/ryanTeach01/{params1}/fuck/{params2?}','RyanTeachController@teach20200103')->name('teach001');//別名與參數傳遞
+
+Route::get('/ryanTeach02/{params1}/fuck/{params2?}','RyanTeachController@teach20200103001');
