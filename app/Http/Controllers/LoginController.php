@@ -19,6 +19,6 @@ class LoginController extends Controller
     }
 
     public function getfuck(){
-        return 'fuck';
+        return 'fuck0娘哩';
     }
 }
