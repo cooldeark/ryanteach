@@ -26,3 +26,6 @@ Route::get('/ryanHomework01','RyanHomeWorkController@homework20191227')->middlew
 Route::get('/ryanTeach01/{params1}/fuck/{params2?}','RyanTeachController@teach20200103')->name('teach001');//別名與參數傳遞
 
 Route::get('/ryanTeach02/{params1}/fuck/{params2?}','RyanTeachController@teach20200103001');
+
+Route::get('/ryanHomework02/FirstVariable/{variable1}/youWantToTransformType/{variable2?}','RyanHomeWorkController@teach20200103');//2進位的題目
+
